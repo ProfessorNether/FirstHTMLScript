@@ -42,3 +42,8 @@ body{
 #socials{
     float: left;
 }
+
+#maincontainer{
+    width: 850px;
+    margin: 0 auto;
+}
