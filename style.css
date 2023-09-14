@@ -4,10 +4,13 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }                      
 
+.mainbackground{
+    margin:auto;
+}
 
-#introtext{color:blueviolet;}
+#introtext{color:aquamarine;}
 .highlight{ 
-    color:aquamarine;
+    color:aqua;
 }
 
 
@@ -19,6 +22,7 @@ body{
 #introbox{
     width: 500px;
     float: left;
+    margin: 0px 0px 0px 320px;
 }
 
 
@@ -32,18 +36,30 @@ body{
 
 #hobbyimg{
     float: left;
+    margin: 30px 0px 0px 0px 
 }
 
 #hobbybox{ 
     width: 500px;
     float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#hobbybox h2{
+    margin: 0px;
 }
 
 #socials{
     float: left;
 }
 
+.socialimg{
+    width: 100px;
+    height: 100px;
+background-color: white;
+}
+
 #maincontainer{
-    width: 850px;
-    margin: 0 auto;
+    width: 1300px;
+    margin: 0px 0px 0px 400px;
 }
