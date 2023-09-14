@@ -4,15 +4,16 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }                      
 
-.mainbackground{
-    margin:auto;
-}
 
 #introtext{color:aquamarine;}
 .highlight{ 
     color:aqua;
 }
 
+.mainbackground{
+    width: 100%;
+}
+ 
 
 #hobbys{color: aqua;}
 .hobby{
