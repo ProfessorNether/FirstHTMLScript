@@ -5,15 +5,39 @@ body{
 }                      
 
 
+#navigation a {
+    padding: 10px;
+    background: #2f7bc7;
+    color: #000000;
+}
+
+#navigation a:hover {
+    background: #2f7bc7;
+}
+
 #introtext{color:aquamarine;}
 .highlight{ 
     color:aqua;
 }
 
+#hellotextback{
+    color: antiquewhite;
+}
 .mainbackground{
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
  
+.hellobackground{
+    width: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 
 #hobbys{color: aqua;}
 .hobby{
@@ -29,6 +53,7 @@ body{
 
 #intropicture{
     float: left;
+    width: 10%;
 }
 
 .reset{
@@ -62,5 +87,6 @@ background-color: white;
 
 #maincontainer{
     width: 1300px;
-    margin: 0px 0px 0px 400px;
+    margin: 0px 0px 0px 280px;
 }
+
