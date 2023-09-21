@@ -1,4 +1,7 @@
-h1{ color: antiquewhite;}        
+h1{ 
+    color: antiquewhite;
+    width: 300px;
+}        
 body{
     margin: 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,7 +18,13 @@ body{
     background: #2f7bc7;
 }
 
-#introtext{color:aquamarine;}
+#introtext{
+    color:aquamarine;
+    font-size: 22px;
+    font-weight: ;
+    margin: -20px 0px 0px 0px
+}
+
 .highlight{ 
     color:aqua;
 }
@@ -39,7 +48,13 @@ body{
   height: 100%;
 }
 
-#hobbys{color: aqua;}
+body::-webkit-scrollbar{
+    display: none;
+}
+#hobbys{
+    color: aqua;
+    font-size: 21px;
+}
 .hobby{
         color: aquamarine;
 }
@@ -58,6 +73,7 @@ body{
 
 .reset{
     clear: both;
+    height: 20px;
 }
 
 #hobbyimg{
@@ -71,12 +87,26 @@ body{
     margin: 0px 10px 0px 0px;
 }
 
-#hobbybox h2{
+#hobbybox li{
     margin: 0px;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
-#socials{
+
+.socials h1{
     float: left;
+    margin: 180px auto auto 30px;
+}
+
+.socialbutton{
+    float: left;
+    margin: 230px auto auto -300px;
+}
+.meme{
+    width: 450px;
+    float: left;
+    margin: 0px 0px 25px 0px;
 }
 
 .socialimg{
