@@ -1,11 +1,12 @@
-h1{ 
+h1 {
     color: antiquewhite;
     width: 300px;
-}        
-body{
+}
+
+body {
     margin: 0px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}                      
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 #navigation a {
@@ -18,105 +19,108 @@ body{
     background: #2f7bc7;
 }
 
-#introtext{
-    color:aquamarine;
+#introtext {
+    color: aquamarine;
     font-size: 22px;
     font-weight: ;
     margin: -20px 0px 0px 0px
 }
 
-.highlight{ 
-    color:aqua;
+.highlight {
+    color: aqua;
 }
 
-#hellotextback{
+#hellotextback {
     color: antiquewhite;
 }
-.mainbackground{
+
+.mainbackground {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
- 
-.hellobackground{
+
+.hellobackground {
     width: 100%;
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
-#hobbys{
+
+#hobbys {
     color: aqua;
     font-size: 21px;
 }
-.hobby{
-        color: aquamarine;
+
+.hobby {
+    color: aquamarine;
 }
 
-#introbox{
+#introbox {
     width: 500px;
     float: left;
     margin: 0px 0px 0px 320px;
 }
 
 
-#intropicture{
+#intropicture {
     float: left;
     width: 10%;
 }
 
-.reset{
+.reset {
     clear: both;
     height: 20px;
 }
 
-#hobbyimg{
+#hobbyimg {
     float: left;
-    margin: 30px 0px 0px 0px 
+    margin: 30px 0px 0px 0px
 }
 
-#hobbybox{ 
+#hobbybox {
     width: 500px;
     float: left;
     margin: 0px 10px 0px 0px;
 }
 
-#hobbybox li{
+#hobbybox li {
     margin: 0px;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 
-.socials h1{
+.socials h1 {
     float: left;
     margin: 180px auto auto 30px;
 }
 
-.socialbutton{
+.socialbutton {
     float: left;
     margin: 230px auto auto -300px;
 }
-.meme{
+
+.meme {
     width: 450px;
     float: left;
     margin: 0px 0px 25px 0px;
 }
 
-.socialimg{
+.socialimg {
     width: 100px;
     height: 100px;
-background-color: white;
+    background-color: white;
 }
 
-#maincontainer{
+#maincontainer {
     width: 1300px;
     margin: 0px 0px 0px 280px;
 }
-
